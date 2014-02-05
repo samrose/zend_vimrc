@@ -28,4 +28,4 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'joonty/vim-phpqa.git'
-
+Bundle 'joonty/vdebug'
