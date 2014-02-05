@@ -1,3 +1,7 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -16,3 +20,10 @@ filetype plugin on
 autocmd FileType php noremap <C-L> :!/usr/bin/env php -l %<CR>
 autocmd FileType phtml noremap <C-L> :!/usr/bin/env php -l %<CR>
 set nu
+set nowritebackup
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+" Bundles
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+
