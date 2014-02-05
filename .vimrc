@@ -26,5 +26,6 @@ set encoding=utf-8
 " Bundles
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'joonty/vim-phpqa.git'
 
